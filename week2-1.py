@@ -5,6 +5,4 @@ def inicials(s):
     for i in list_names:
         inicials=inicials + i[0].upper()
     return inicials
-
-
 print inicials(name)

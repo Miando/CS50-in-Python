@@ -11,10 +11,6 @@ for i in s:
             in_alfabet=in_alfabet-26
         elif in_alfabet>ord("Z") and i.isupper()==True:
             in_alfabet=in_alfabet-26
-
         letter=chr(in_alfabet)
-
-
-
     output=output+letter
 print output
